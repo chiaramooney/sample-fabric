@@ -1,9 +1,9 @@
 /.vscode
 /node_modules
-/windows/RNTesterApp-Fabric/Generated Files/
+/windows/Sample-Fabric/Generated Files/
 /build
 /errorShots
 /reports
 /dist
-/windows/RNTesterApp-Fabric/Bundle/
+/windows/Sample-Fabric/Bundle/
 msbuild.binlog

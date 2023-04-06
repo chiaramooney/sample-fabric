@@ -1,8 +1,8 @@
-// RNTesterApp-Fabric.cpp : Defines the entry point for the application.
+// Sample-Fabric.cpp : Defines the entry point for the application.
 //
 
 #include "pch.h"
-#include "RNTesterApp-Fabric.h"
+#include "Sample-Fabric.h"
 
 #include "../../node_modules/react-native-windows/codegen/NativeDeviceInfoSpec.g.h"
 
@@ -65,7 +65,7 @@ winrt::Windows::UI::Composition::Compositor g_compositor{nullptr};
 
 constexpr auto WindowDataProperty = L"WindowData";
 constexpr PCWSTR c_windowClassName = L"MS_REACTNATIVE_RNTESTER_COMPOSITION";
-constexpr PCWSTR appName = L"RNTesterApp";
+constexpr PCWSTR appName = L"Sample-Fabric";
 
 // Forward declarations of functions included in this code module:
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
